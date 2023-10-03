@@ -8,6 +8,11 @@ import App from "./App";
 // const title = "Kanban Board";
 ReactDOM.render(
   <React.StrictMode>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+      <a class="navbar-brand" href="#">
+        Kanban Board
+      </a>
+    </nav>
     <App />
   </React.StrictMode>,
   document.getElementById("root"),
